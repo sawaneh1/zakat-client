@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Montserrat&family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat&family=Montserrat+Alternates&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -10,18 +14,31 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    /* --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; */
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
+html , body{
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Cabin', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-family: 'Montserrat Alternates', sans-serif; */
+
+
+
+  font-family: 'Cormorant Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+  /* color: #0a1539; */
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
